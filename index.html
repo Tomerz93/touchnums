@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pop num</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body onload="initGame(2)">
+    <h1></h1>
+    <div class="difficulties">
+      <button onclick="setDifficulty(16)" class="btn">Easy(16)</button>
+      <button onclick="setDifficulty(24)" class="btn">Medium(24)</button>
+      <button onclick="setDifficulty(35)" class="btn">Hard(35)</button>
+    </div>
+    <h4 class="timer"></h4>
+    <h1 class="vicory-header"></h1>
+    <div class="main-content"></div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
